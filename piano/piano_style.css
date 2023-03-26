@@ -1,0 +1,39 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(#fa0393 , #297f93, #d9f40b , #03ec29 );
+    display: flex;
+}
+.container{
+    flex: 0 0 90%;
+    display: flex;
+    margin: 200px auto;
+    border: 2px solid #000;
+    height: 300px;
+    box-shadow: 5px 5px 5px #aaa;
+}
+.note{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    flex: 1 1 10%;
+    background-color: white;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+
+@media (min-width: 1100px){
+    .container{
+        flex-basis: 60%;
+    }
+}
+@media (max-height: 500px){
+    .container{
+        margin-top: 20px;
+    }
+}
