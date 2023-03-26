@@ -1,21 +1,21 @@
 const NOTES_NUMBER = 15;
             
 const AUDIO_FILES = [
-new Audio("notes/do.mp3"),
-new Audio("notes/re.mp3"),
-new Audio("notes/mi.mp3"),
-new Audio("notes/fa.mp3"),
-new Audio("notes/sol.mp3"),
-new Audio("notes/la.mp3"),
-new Audio("notes/si.mp3"),
-new Audio("notes/do2.mp3"),
-new Audio("notes/re2.mp3"),
-new Audio("notes/mi2.mp3"),
-new Audio("notes/fa2.mp3"),
-new Audio("notes/sol2.mp3"),
-new Audio("notes/la2.mp3"),
-new Audio("notes/si2.mp3"),
-new Audio("notes/do3.mp3"),
+new Audio("piano/notes/do.mp3"),
+new Audio("piano/notes/re.mp3"),
+new Audio("piano/notes/mi.mp3"),
+new Audio("piano/notes/fa.mp3"),
+new Audio("piano/notes/sol.mp3"),
+new Audio("piano/notes/la.mp3"),
+new Audio("piano/notes/si.mp3"),
+new Audio("piano/notes/do2.mp3"),
+new Audio("piano/notes/re2.mp3"),
+new Audio("piano/notes/mi2.mp3"),
+new Audio("piano/notes/fa2.mp3"),
+new Audio("piano/notes/sol2.mp3"),
+new Audio("piano/notes/la2.mp3"),
+new Audio("piano/notes/si2.mp3"),
+new Audio("piano/notes/do3.mp3"),
 ];
 
 function playNote(i){
