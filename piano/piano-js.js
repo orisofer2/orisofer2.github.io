@@ -35,14 +35,20 @@ var notes = [];
 for(let i = 0; i < NOTES_NUMBER; i++){
 
     notes[i] = document.getElementById("note" + (i+1));
-
+    
+    // mouse events
     notes[i].addEventListener("mousedown", () =>{playNote(i);});
     notes[i].addEventListener("mouseup", () =>{stopNote(i);});
 
+    // keyboard events
     window.addEventListener("keydown", () =>{
         if(event.key == KEYS[i])
             playNote(i);});
     window.addEventListener("keyup", () =>{
         if(event.key == KEYS[i])
             stopNote(i);});
+    
+    // touch events
+    notes[i].addEventListener("touchstart", () =>{playNote(i);});
+    notes[i].addEventListener("touchend", () =>{stopNote(i);});
 }
