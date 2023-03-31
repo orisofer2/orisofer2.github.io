@@ -49,6 +49,6 @@ for(let i = 0; i < NOTES_NUMBER; i++){
             stopNote(i);});
     
     // touch events
-    notes[i].addEventListener("touchstart", () =>{playNote(i);});
+    notes[i].addEventListener("touchmove", () =>{playNote(i);});
     notes[i].addEventListener("touchend", () =>{stopNote(i);});
 }
