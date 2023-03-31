@@ -5,7 +5,7 @@ body{
     height: 100%;
     padding: 0;
     margin: 0;
-    background: linear-gradient(#fa0393 , #297f93, #d9f40b , #03ec29 );
+    background-color: rgb(62, 165, 194);
     display: flex;
 }
 .container{
