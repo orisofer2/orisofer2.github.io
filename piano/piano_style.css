@@ -14,7 +14,7 @@ body{
     margin: 200px auto;
     border: 2px solid #000;
     height: 300px;
-    box-shadow: 5px 5px 5px #aaa;
+    box-shadow: 0 0 15px #000;
 }
 .note{
     display: flex;
